@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
-const generateMarkdown = require('./readme-generator');
+const generateMarkdown = require('./readme-generator.js');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 

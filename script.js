@@ -12,3 +12,7 @@ fetch(cityDataUrl)
   .then(function (data) {
     console.log(data);
   });
+
+// var oneDay ="https://api.openweathermap.org/data/2.5/weather?q=" 
+// + cityInput + "&units=imperial" + "&appid=45e45c0bb2ef540df33fa21a29aafa8a";
+// console.log("oneDay", oneDay); 
